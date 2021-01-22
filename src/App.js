@@ -24,7 +24,6 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Nasa Photo of The Day</h1>
       <Header nasaInfo = {nasaInfo}/>
       <Body nasaInfo = {nasaInfo}/>
       <Footer nasaInfo = {nasaInfo}/>
